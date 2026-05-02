@@ -21,8 +21,10 @@ else:
 # Logical Operators
 income = 20
 has_id = True
-if income >= 18 and has_id:
-    print("Allowed") 
+if income >= 22 and has_id:
+    print("Allowed")
+else: 
+    print("Not Allowed") 
        
 # Nested Condition
 age = 20
@@ -46,3 +48,22 @@ elif num == 0:
     print("Zero")
 else:
     print("Negative")
+
+# testing
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Positive")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative")
+
+
+# more testing
+money = int(input("please provide me the money:-"))
+
+if money == 10:
+    print("I will have a chocobar icecream")
+else: 
+    print("I will have a mango dolly")
