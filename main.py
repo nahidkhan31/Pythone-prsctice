@@ -12,6 +12,11 @@
 
 # a = "Nahid Khan"
 # print(a[6::1])
-a= "12"
+# a= "12"
 # a= int(a)
-print(type(a))
+# print(type(a))
+
+a= 12
+b=4
+final= a/b
+print(type(final))
